@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.header{
+  background-color: rebeccapurple;
+  border: darkblue 1px solid;
+}
+.header div{
+  color:white;
+  display: inline-block;
+  width:25%;
+  background-color: rebeccapurple;
+  min-height: 20px;
+  padding: 10px 0px;
+  
+   /* margin: 10px 20px; */
+  display: inline-block;
+  width: calc(25% - 2px); 
+  border-left:purple 1px solid; 
+  border-right:purple 1px solid; 
+}
+.subHeader{
+  background-color: #fbfbfb;
+  border-bottom:black 1px solid;
+}
+.subHeader div{
+  display: inline-block;
+  width:25%;
+  background-color: #fbfbfb;
+  min-height: 20px;
+  padding: 10px 0px;
+  /* margin: 10px 20px;
+  display: inline-block;*/
+  width: calc(25% - 2px); 
+  
+}
+.tabs div{
+  display: inline-block;
+  width:calc(33.33% - 2px);
+  background-color: #fbfbfb;
+  min-height: 20px;
+  padding: 10px 0px;
+  border-left:#ababab 1px solid;
+  border-left:#ababab 1px solid;
+  color:#ababab;
+  padding:10px 0px;
+}
+.cp{
+  cursor: pointer;
+}
+.subTab>div,.subTab>button{
+  display: inline-block;
+  width:50%;
+  background-color: #fbfbfb;
+  height:30px;
+}
+.chartColumn{
+  height: 10px;
+  background-color: #fbfbfb;
+  width: 100%;
+  border-radius: 5px;
+}
+.outcomechart{
+  background-color: #fbfbfb
+}
+.outcomechart>div{
+  display: inline-block;
+  height:100%
+}
+.chartDiv{
+  color: rebeccapurple;
+  height:18px;
+}
+.columnFill{
+  border-radius: 5px;
+  height:100%;
+  background-color: slateblue;
+}
+.chartDiv div{
+  display: inline-block;
+}
+#chartOverview .chart, .chart>div{
+height:250px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
